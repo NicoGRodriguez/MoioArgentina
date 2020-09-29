@@ -16,5 +16,16 @@ li {
 }
 
 .pie {
-    height: 80px;
+    height: auto;
+}
+img{
+    height: 600px;
+}
+/*hacer media query*/
+a:hover{
+    text-decoration: none;
+    color: black !important;
+}
+.nav-link:hover{
+    color: white !important;
 }
