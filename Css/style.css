@@ -1,31 +1,30 @@
 h1 {
-    color: blue;
-
+  color: blue;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .pie {
-    height: auto;
+  height: auto;
 }
-img{
-    height: 600px;
+img {
+  height: 600px;
 }
 /*hacer media query*/
-a:hover{
-    text-decoration: none;
-    color: black !important;
+a:hover {
+  text-decoration: none;
+  color: black !important;
 }
-.nav-link:hover{
-    color: white !important;
+.nav-link:hover {
+  color: white !important;
 }
