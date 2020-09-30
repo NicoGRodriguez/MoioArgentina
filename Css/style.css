@@ -8,6 +8,7 @@ p {
 
 body {
   background-color: white;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 li {
@@ -16,15 +17,40 @@ li {
 
 .pie {
   height: auto;
+  background-color: black;
 }
 img {
   height: 600px;
 }
 /*hacer media query*/
-a:hover {
+.foot:hover {
   text-decoration: none;
-  color: black !important;
+  font-size: 1.2rem;
 }
 .nav-link:hover {
+  background-color: white;
+  color: black !important;
+}
+.navbar {
+  background-color: black;
+  box-shadow: 8 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 100px;
+}
+.nav-link {
+  color: white;
+}
+.logo-brand {
+  height: 110px;
+}
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+.nav-link {
   color: white !important;
 }
