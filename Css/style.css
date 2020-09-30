@@ -1,31 +1,56 @@
 h1 {
-    color: blue;
-
+  color: blue;
 }
 
 p {
-    color: white;
+  color: white;
 }
 
 body {
-    background-color: white;
+  background-color: white;
+  font-family: "Titillium Web", sans-serif;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .pie {
-    height: auto;
+  height: auto;
+  background-color: black;
 }
-img{
-    height: 600px;
+img {
+  height: 600px;
 }
 /*hacer media query*/
-a:hover{
-    text-decoration: none;
-    color: black !important;
+a:hover {
+  text-decoration: none;
+  color: black !important;
+  background-color: white;
 }
-.nav-link:hover{
-    color: white !important;
+.nav-link:hover {
+  background-color: white;
+}
+.navbar {
+  background-color: black;
+  box-shadow: 8 2px 4px 0 rgba(0, 0, 0, 0.5);
+  min-height: 100px;
+}
+.nav-link {
+  color: white;
+}
+.logo-brand {
+  height: 110px;
+}
+.navbar-toggler {
+  font-size: 40px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+.nav-link {
+  color: white !important;
 }
