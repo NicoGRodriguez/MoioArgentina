@@ -16,7 +16,18 @@ li {
   background-color: black;
 }
 img {
-  height: 600px;
+  height: 300px;
+}
+#videohome {
+  height: 300px;
+}
+@media screen and (min-width: 768px) {
+  img {
+    height: 600px;
+  }
+  #videohome {
+    height: 500px;
+  }
 }
 /*hacer media query*/
 .foot:hover {
