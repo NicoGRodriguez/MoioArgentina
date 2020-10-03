@@ -1,5 +1,5 @@
 p {
-  color: white;
+  color: black;
 }
 
 body {
@@ -13,7 +13,7 @@ li {
 
 .pie {
   height: auto;
-  background-color: black;
+  background-color: white;
 }
 img {
   height: 300px;
@@ -35,16 +35,16 @@ img {
   font-size: 1.2rem;
 }
 .nav-link:hover {
-  background-color: white;
-  color: black !important;
+  background-color: black;
+  color: white !important;
 }
 .navbar {
-  background-color: black;
+  background-color: white;
   box-shadow: 8 2px 4px 0 rgba(0, 0, 0, 0.5);
   min-height: 100px;
 }
 .nav-link {
-  color: white;
+  color: black;
 }
 .logo-brand {
   height: 110px;
@@ -57,9 +57,6 @@ img {
 }
 .navbar-toggler-icon {
   background-color: white;
-}
-.nav-link {
-  color: white !important;
 }
 .cajatexto {
   background-color: black !important;
@@ -89,5 +86,5 @@ span {
   }
 }
 .caja-principal {
-  background-color: black !important;
+  background-color: white !important;
 }
