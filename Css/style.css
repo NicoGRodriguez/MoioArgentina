@@ -1,5 +1,11 @@
+/*VARIABLES */
+:root {
+  --black: black;
+  --white: white;
+  --gris: gray;
+}
 p {
-  color: black;
+  color: var(--black);
 }
 
 body {
@@ -10,7 +16,9 @@ body {
 li {
   list-style: none;
 }
-
+li a {
+  color: var(--black) !important;
+}
 .pie {
   height: auto;
   background-color: white;
@@ -44,7 +52,7 @@ img {
   min-height: 100px;
 }
 .nav-link {
-  color: black;
+  color: var(--black);
 }
 .logo-brand {
   height: 110px;
