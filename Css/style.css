@@ -4,6 +4,9 @@
   --white: white;
   --gris: gray;
 }
+html {
+  scroll-behavior: smooth;
+}
 p {
   color: var(--black);
 }
