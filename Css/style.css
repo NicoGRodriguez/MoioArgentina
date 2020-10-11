@@ -12,6 +12,7 @@ p {
 }
 
 body {
+  width: 99%;
   background-color: white;
   font-family: 'Titillium Web', sans-serif;
 }
