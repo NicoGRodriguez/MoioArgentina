@@ -22,6 +22,10 @@
       integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q"
       crossorigin="anonymous"
     />
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   </head>
 
   <body>
@@ -97,6 +101,55 @@
         </div>
       </nav>
     </header>
+    <div class="content">
+
+        <h1 class="logo">Contacto <span>Moio</span></h1>
+
+        <div class="contacto-wrapper animated bounceInUp">
+            <div class="contacto-form">
+                <h3>Formulario de contacto</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="nombre-completo">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Numero de telefono</label>
+                        <input type="tel" name="telefono">
+                    </p>
+                    <p>
+                        <label>Motivo</label>
+                        <input type="text" name="motivo">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contacto-info">
+                <h4>Informacion</h4>
+                <ul class="contacto-ul">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Gral Paz 153</li>
+                    <li><i class="fas fa-phone"></i> (351) 3758478</li>
+                    <li><i class="fas fa-envelope-open-text"></i> nestormoio@gmail.com</li>
+                </ul>
+                <p class="textoinfo">Gracias por su consulta</p>
+                <p class="textoinfo">www.MoioCompania.com</p>
+            </div>
+        </div>
+
+    </div>
+    
     <div class="pie p-4 mt-3">
       <div class="row">
         <div class="col-12 d-flex flex-column flex-md-row justify-content-md-around align-items-center">
@@ -110,10 +163,12 @@
           <a class="text-dark foot"
             href="https://api.whatsapp.com/send?phone=5493513758478&text=Hola!%20Quiero%20ser%20modelo!"
             target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
+            <a href="#" class="text-dark foot"><i class="fas fa-arrow-up fa-2x"></i></a>
         </div>
       </div>
     </div>
   </div>
+  
       <script
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
