@@ -6,11 +6,6 @@
   --def: #96b7c4;
   --inv: #fff;
 }
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +16,7 @@ p {
 body {
   width: 99%;
   background-color: white;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 li {
@@ -253,7 +248,7 @@ span {
 
 .btn2:before,
 .btn2:after {
-  content: "";
+  content: '';
   position: absolute;
   transition: inherit;
   z-index: -1;
@@ -296,4 +291,12 @@ span {
 .from-left:hover:before,
 .from-left:hover:after {
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  input {
+    width: 500px !important;
+  }
+  textarea {
+    width: 1000px !important;
+  }
 }
