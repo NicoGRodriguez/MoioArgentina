@@ -14,7 +14,7 @@ p {
 }
 
 body {
-  width: 99%;
+  width: 100%;
   background-color: white;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -26,6 +26,7 @@ li a {
   color: var(--black) !important;
 }
 .pie {
+  width: 100%;
   height: auto;
   background-color: white;
 }
@@ -302,4 +303,10 @@ span {
 }
 .texto {
   font-size: 30px;
+}
+.caja {
+  width: 100%;
+}
+.fotomoio {
+  max-width: 100%;
 }
