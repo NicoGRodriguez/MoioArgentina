@@ -29,7 +29,10 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"
-            ><img src="Assets/img/LOGO BLANCO.jpg" class="logo-brand" alt="logo"
+            ><img
+              src="Assets/img/LOGO BLANCO.jpg"
+              class="logo-brand"
+              alt="logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -51,12 +54,10 @@
                 <a class="nav-link" href="index.html">INICIO </a>
               </li>
               <li class="nav-item">
-                
                 <a class="nav-link" href="nestormoio.html">NESTOR MOIO</a>
               </li>
 
               <li class="nav-item">
-                
                 <a class="nav-link" href="moioargentina.html">MOIO ARGENTINA</a>
               </li>
               <li class="nav-item dropdown">
@@ -97,55 +98,81 @@
         </div>
       </nav>
     </header>
+
+    <!--Comienzo-->
     <div class="container">
-      <h1 class="mt-2">Córdoba
-        Corazón de Moda
-        2018
-        El Evento del Año
-        La mirada del mundo
-        de la Moda, el Arte y la Cultura
-        puesta en Nuestra Ciudad</h1>
-        <div class="d-flex justify-content-center mb-2">
-          <iframe width="100%" height="515" src="https://www.youtube.com/embed/fo4Q7w0qvVI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h1 class="mt-2 text-center">
+        Córdoba Corazón de Moda 
+      </h1>
+      <p class="text-center">El Evento del Año La mirada del mundo de la
+        Moda, el Arte y la Cultura puesta en Nuestra Ciudad</p>
+      <div class="d-flex justify-content-center mb-2">
+        <iframe
+          width="100%"
+          height="515"
+          src="https://www.youtube.com/embed/fo4Q7w0qvVI"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <!--Comienzo collapse-->
+      <div class="accordion mt-3" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button
+                id="2019"
+                class="btn btn-link texto btn-block text-center text-dark font-weight-bold"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-controls="collapseOne"
+              >
+                Edicion 2019
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse show"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <div class="col"><img src="./Assets/img/chica moda 2.jpg" class="img-fluid rounded mb-2"></div>
+                <div class="col"><img src="./Assets/img/chica moda 2.jpg" class="img-fluid rounded mb-2"></div>
+                <div class="col"><img src="./Assets/img/chica moda 2.jpg" class="img-fluid rounded mb-2"></div>
+                <div class="col"><img src="./Assets/img/chica moda 2.jpg" class="img-fluid rounded mb-2"></div>
+              </div>
+            </div>
+          </div>
         </div>
-            <h1 id="2019" class="display-1 border-bottom">Edición 2019</h1>
-            <div class="container">
-              <div class="row row-cols-2">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-              </div>
-            </div>
-            <h1 id="2018" class="display-1 border-bottom">Edición 2018</h1>
-            <div class="container">
-              <div class="row row-cols-2">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-              </div>
-            </div>
-            <h1 id="2017" class="display-1 border-bottom">Edición 2017</h1>
-            <div class="container">
-              <div class="row row-cols-2">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-              </div>
-            </div>
-            <h1 id="2016" class="display-1 border-bottom">Edición 2016</h1>
-            <div class="container">
-              <div class="row row-cols-2">
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-                <div class="col"></div>
-              </div>
-            </div>
-            <h1 id="2015" class="display-1 border-bottom">Edición 2015</h1>
-            <div class="container">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button
+                id="2018"
+                class="btn btn-link texto btn-block text-center text-dark collapsed font-weight-bold"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+              Edicion 2018
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
               <div class="row row-cols-2">
                 <div class="col"></div>
                 <div class="col"></div>
@@ -154,26 +181,140 @@
               </div>
             </div>
           </div>
-          <!--footer-->
-          <div class="pie p-4 mt-3">
-      <div class="row">
-        <div class="col-12 d-flex flex-column flex-md-row justify-content-md-around align-items-center">
-          <p>2020 MOIO ARGENTINA</p>
-          <a class="text-dark foot" href="https://www.instagram.com/moioargentina/" target="_blank"><i
-              class="fab fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button
+                id="2017"
+                class="btn btn-link texto btn-block text-center text-dark collapsed font-weight-bold"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+              Edicion 2017
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+              <button
+                id="2016"
+                class="btn btn-link texto btn-block text-center text-dark collapsed font-weight-bold"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+              Edicion 2016
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+              <button
+                id="2015"
+                class="btn btn-link texto btn-block text-center text-dark collapsed font-weight-bold"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+              Edicion 2015
+              </button>
+            </h2>
+          </div>
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-          <a class="text-dark foot" href="https://www.facebook.com/moio.com.ar" target="_blank"><i
-              class="fab fa-facebook-square fa-2x" id="face"></i></a>
+      </div>
+      <!--footer-->
+      <div class="pie p-4 mt-3">
+        <div class="row">
+          <div
+            class="col-12 d-flex flex-column flex-md-row justify-content-md-around align-items-center"
+          >
+            <p>2020 MOIO ARGENTINA</p>
+            <a
+              class="text-dark foot"
+              href="https://www.instagram.com/moioargentina/"
+              target="_blank"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
 
-            <a class="text-dark foot"
-            href="https://api.whatsapp.com/send?phone=5493513758478&text=Hola!%20Quiero%20ser%20modelo!"
-            target="_blank"><i class="fab fa-whatsapp fa-2x"></i></a>
-            <a href="#" class="text-dark foot"><i class="fas fa-arrow-up fa-2x"></i></a>
+            <a
+              class="text-dark foot"
+              href="https://www.facebook.com/moio.com.ar"
+              target="_blank"
+              ><i class="fab fa-facebook-square fa-2x" id="face"></i
+            ></a>
+
+            <a
+              class="text-dark foot"
+              href="https://api.whatsapp.com/send?phone=5493513758478&text=Hola!%20Quiero%20ser%20modelo!"
+              target="_blank"
+              ><i class="fab fa-whatsapp fa-2x"></i
+            ></a>
+            <a href="#" class="text-dark foot"
+              ><i class="fas fa-arrow-up fa-2x"></i
+            ></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-        <script
+    <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
