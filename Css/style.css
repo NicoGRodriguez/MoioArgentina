@@ -310,3 +310,7 @@ span {
 .fotomoio {
   max-width: 100%;
 }
+/* ENTREVISTA ESTILOS*/
+.entrevista {
+  text-align: justify;
+}
